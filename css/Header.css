@@ -1,0 +1,108 @@
+/*-------------- Navbar ------------*/
+nav{
+    background:inherit;
+    z-index: 99;
+}
+.nav-top{
+    border-bottom: 1px solid #a2b0fa;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+.icon-nav-top{
+    color: var(--blue);
+}
+
+.nav-bottom{
+    z-index: 999;
+}
+.logo{
+    text-decoration: none;
+    font-size: 3rem;
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.Item-Active{
+    color: var(--blue);
+}
+
+.icon-nav-bottom a{
+    padding: 5px;
+    background: #E4E8FD;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.icon-nav-bottom i{
+    color: var(--blue);
+}
+
+/*------------ slider -----------*/
+.box-slider{
+    position: relative;
+    height: 100vh;
+}
+.image-slider{
+    width:100% ;
+    object-fit:contain;
+    margin-top: -100px;
+    z-index: -1;
+    position: absolute;
+}
+.texts{
+    width: 100%;
+    padding: 100px;
+}
+
+.texts span{
+    color: var(--blue);
+    display: inline-block;
+    padding: 5px 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.texts p{
+    font-size: 4.5rem;
+    font-weight: bold;
+    width: 60%;
+}
+
+.texts button{
+    padding: 12px 40px;
+    font-size: 20px;
+}
+.icon-prev{
+    margin-left: -100px;
+    background-color: var(--blue);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50% 0 0 50%;
+}
+.icon-next{
+    margin-right: -100px;
+    background-color: var(--blue);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 0 50% 50% 0;
+}
+
+@media (max-width: 769px){
+    .texts p{
+        font-size: 2.5rem;
+        width: 100%;
+    }
+
+    .image-slider{
+        width:100% ;
+        object-fit:cover;
+        margin-top: -50px;
+        height: 100vh;
+    }
+
+    .texts button{
+        padding: 8px 25px;
+        font-size: 18px;
+    }
+}

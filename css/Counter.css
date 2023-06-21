@@ -1,0 +1,49 @@
+/*------- COUNTER --------*/
+.counter{
+    width:100%;
+    height:fit-content;
+    background-color: #3F66FC;
+    margin-top: 50px;
+    position: relative;
+    padding: 50px;
+}
+.counter img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    z-index:0;
+    position: absolute;
+    opacity: 30%;
+}
+
+.counter-box-item{
+    width: 20%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.counter-icons , .counter-number{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.counter-item-text{
+    font-size: 1.2rem;
+}
+
+@media (max-width: 769px){
+    .counter{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 50px;
+        row-gap: 50px;
+    }
+    .counter-box-item{
+        width: 50%;
+    }
+}

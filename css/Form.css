@@ -1,0 +1,22 @@
+.form-box{
+    background-color: white;
+    margin-top: -200px;
+    z-index: 10;
+    border-radius: 10px;
+}
+.form-box span{
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 20px;
+    color: var(--blue);
+}
+
+.form-box h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text-area{
+    height: 200px;
+}

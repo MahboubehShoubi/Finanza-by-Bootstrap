@@ -1,0 +1,59 @@
+.Our-Services{
+    padding:0 100px;
+}
+.Our-Services-Top{
+    text-align: center;
+}
+
+.List-group a{
+    margin-bottom: 30px;
+    padding: 20px;
+    outline: 1px solid var(--border);
+    display: inline-block;
+    border-radius: 10px;
+}
+.Services-Box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Services-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Services-info ul{
+    list-style: none;
+    margin-left: -30px;
+}
+
+.Services-info li{
+    display: flex;
+    column-gap: 10px;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Services-info li i{
+    color: var(--blue);
+}
+
+.Services-info button{
+    padding: 10px 30px;
+}
+
+/*--------box-background------*/
+.box-background{
+    height: 50vh;
+    margin-top: 100px;
+    background-color: var(--blue);
+}
+.box-background img{
+    width: 100%;
+    height: inherit;
+    opacity: 30%;
+}
+
+@media (max-width: 769px) {
+
+}

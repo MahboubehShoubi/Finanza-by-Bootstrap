@@ -9,9 +9,9 @@
 }
 
 .about-box-top-right{
-    padding-top: 35px;
+    padding:50px 35px;
     display: flex;
-    row-gap: 15px;
+    row-gap: 35px;
     flex-direction: column;
 }
 
@@ -31,8 +31,9 @@
 
 .about-box-top-right p{
     text-align: justify;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8d8d8d;
 }
 
 .about-box-tab{
@@ -42,6 +43,10 @@
     display: flex;
     flex-direction: column;
     row-gap: 15px;
+}
+
+.tab-pane p{
+    font-size: 15px;
 }
 
 .about-box-bottom{
@@ -83,9 +88,8 @@
     }
 
     .about-box-top-right p{
-        text-align: justify;
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 15px;
+        line-height: 22px;
     }
 
     .item{
@@ -116,7 +120,6 @@
     }
 
     .about-box-top-right p{
-        text-align: justify;
         font-size: 16px;
         line-height: 25px;
     }

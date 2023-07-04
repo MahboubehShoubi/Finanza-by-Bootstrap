@@ -4,9 +4,13 @@
 .Our-Services-Top{
     text-align: center;
 }
-
+.List-group{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 30px 0 30px;
+}
 .List-group a{
-    margin-bottom: 30px;
     padding: 20px;
     outline: 1px solid var(--border);
     display: inline-block;
@@ -68,8 +72,10 @@
         margin-bottom: 20px;
     }
 
+    .List-group{
+        row-gap: 10px;
+    }
     .List-group a{
-        margin-bottom: 15px;
         padding: 10px;
         border-radius: 5px;
         font-size: 14px;
@@ -107,6 +113,9 @@
         margin-bottom: 20px;
     }
 
+    .List-group{
+        row-gap: 15px;
+    }
     .List-group a{
         margin-bottom: 15px;
         padding: 12px;

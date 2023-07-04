@@ -47,6 +47,7 @@
     border-radius: 8px;
     padding: 20px;
     transition: all 500ms;
+    cursor: pointer;
 }
 
 .choosing-box i{

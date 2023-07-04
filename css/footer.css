@@ -59,3 +59,10 @@
 .newsletter-signUp input{
     border: none;
 }
+
+@media (max-width: 576px) {
+
+    .footer{
+        padding: 50px 30px;
+    }
+}

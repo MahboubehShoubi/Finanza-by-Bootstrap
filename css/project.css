@@ -60,6 +60,11 @@
         font-size: 15px;
     }
     .box-project-items{
-        padding: 50px 100px;
+        padding: 50px 70px;
+    }
+
+    .box-project-item img{
+        margin-left: -25px;
+        margin-top: -25px;
     }
 }

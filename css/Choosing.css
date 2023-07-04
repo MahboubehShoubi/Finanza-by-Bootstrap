@@ -31,7 +31,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*column-gap: 10px;*/
 }
 
 .choosing-box-right-left{
@@ -67,11 +66,97 @@
     background-color: var(--blue);
 }
 
-@media (max-width: 769px){
+@media (max-width: 576px) {
+
+    .choosing{
+        padding:70px 30px;
+    }
+    .choosing-box-left{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .choosing-box-left span{
+        font-size: 15px;
+    }
+    .choosing-box-left h2{
+        font-size: 2rem;
+    }
+    .choosing-box-left button{
+        padding: 10px 40px;
+        font-size: 15px;
+    }
+
     .choosing-box-right{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         row-gap: 30px;
-        margin-top: 30px;
+    }
+
+    .choosing-box{
+        row-gap: 5px;
+        padding: 20px;
+    }
+
+    .choosing-box h3{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .choosing-box p{
+        font-size:15px ;
+    }
+
+    .choosing-box i{
+        font-size: 2rem;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .choosing{
+        padding:100px 40px;
+    }
+    .choosing-box-left{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .choosing-box-left span{
+        font-size: 15px;
+    }
+    .choosing-box-left h2{
+        font-size: 2.3rem;
+    }
+    .choosing-box-left button{
+        padding: 10px 40px;
+        font-size: 17px;
+    }
+
+    .choosing-box-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .choosing-box{
+        row-gap: 8px;
+        padding: 20px;
+        width: 60%;
+    }
+
+    .choosing-box h3{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .choosing-box p{
+        font-size:15px ;
+    }
+
+    .choosing-box i{
+        font-size: 2rem;
     }
 }

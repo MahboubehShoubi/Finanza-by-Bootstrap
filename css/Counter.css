@@ -1,6 +1,6 @@
 /*------- COUNTER --------*/
 .counter{
-    width:100%;
+    width:100vw;
     height:fit-content;
     background-color: #3F66FC;
     margin-top: 50px;
@@ -24,6 +24,7 @@
     row-gap: 10px;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .counter-icons , .counter-number{
     font-size: 2.5rem;
@@ -33,17 +34,39 @@
     font-size: 1.2rem;
 }
 
-@media (max-width: 769px){
+@media (max-width: 576px) {
     .counter{
+        width: 100vw;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        width: 100%;
-        padding: 50px;
+        padding: 20px;
         row-gap: 50px;
     }
     .counter-box-item{
         width: 50%;
+    }
+
+    .counter-icons , .counter-number{
+        font-size: 2rem;
+    }
+
+    .counter-item-text{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .counter-box-item{
+        text-align: center;
+    }
+
+    .counter-icons , .counter-number{
+        font-size: 2.2rem;
+    }
+
+    .counter-item-text{
+        font-size: 18px;
     }
 }

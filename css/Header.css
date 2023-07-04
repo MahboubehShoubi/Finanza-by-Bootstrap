@@ -88,7 +88,106 @@ nav{
     border-radius: 0 50% 50% 0;
 }
 
-@media (max-width: 769px){
+@media (max-width: 576px) {
+    .container-fluid{
+        row-gap: 10px;
+       }
+
+    .box-slider{
+        height: 50vh;
+    }
+    .image-slider{
+        height: inherit;
+        object-fit: cover;
+        object-position: right;
+        margin-top: 0;
+    }
+    .texts{
+        width: 100%;
+        padding:60px 40px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .texts span{
+        color: var(--blue);
+        padding: 5px 15px;
+        border: 1px solid #19195e;
+        border-radius: 8px;
+        font-size: 12px;
+        width: fit-content;
+    }
+
+    .texts p{
+        font-size: 1.7rem;
+        font-weight: bold;
+        width: 60%;
+    }
+
+    .texts button{
+        padding: 5px 20px;
+        font-size: 15px;
+        width: fit-content;
+    }
+    .icon-prev , .icon-next{
+        display: none;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .nav-top .container-fluid{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        justify-content: left;
+        align-items: start;
+    }
+
+    .box-slider{
+        height: 50vh;
+    }
+    .image-slider{
+        height: inherit;
+        object-fit: cover;
+        object-position: right;
+        margin-top: 0;
+    }
+    .texts{
+        width: 100%;
+        padding:100px 40px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .texts span{
+        color: var(--blue);
+        padding: 5px 15px;
+        border: 1px solid white;
+        border-radius: 8px;
+        font-size: 15px;
+        width: fit-content;
+    }
+
+    .texts p{
+        font-size: 2rem;
+        font-weight: bold;
+        width: 60%;
+    }
+
+    .texts button{
+        padding: 5px 25px;
+        font-size: 15px;
+        width: fit-content;
+    }
+    .icon-prev , .icon-next{
+        display: none;
+    }
+}
+
+@media (min-width: 769px){
     .texts p{
         font-size: 2.5rem;
         width: 100%;

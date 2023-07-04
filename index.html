@@ -33,9 +33,9 @@
     <section class="w-100 flex-md-column">
 
 <!------------------------------- Navbar TOP --------------------------->
-        <section class="navbar navbar-expand-sm nav-top">
+        <section class="navbar nav-top">
             <div class="container-fluid">
-                <section class="nav-top-left col-md-4 d-flex justify-content-around">
+                <section class="nav-top-left col-md-6 col-xl-4 d-flex justify-content-around">
                     <section>
                         <i class="icofont-location-pin icon-nav-top"></i>
                         <span>123 Street, New York, USA</span>
@@ -46,7 +46,7 @@
                     </section>
                 </section>
 
-                <section class="nav-top-right d-flex col-md-4 justify-content-around">
+                <section class="nav-top-right col-md-6 col-xl-4 d-flex justify-content-around">
                     <section>
                         <i class="icofont-email icon-nav-top"></i>
                         <span>info@example.com</span>
@@ -61,7 +61,7 @@
 
 
 <!---------------------------- Navbar BOTTOM ----------------------------->
-        <nav class="navbar sticky-top navbar-expand-md nav-bottom">
+        <nav class="navbar navbar-expand-md nav-bottom">
             <section class="container-fluid">
 
                 <div class="nav-bottom-left col-md-4">
@@ -72,53 +72,53 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                    <section class="collapse navbar-collapse col-md-8 justify-content-end" id="navbarList">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active Item-Active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Pages
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Project</a></li>
-                                    <li><a class="dropdown-item" href="#">Features</a></li>
-                                    <li><a class="dropdown-item" href="#">Team Members</a></li>
-                                    <li><a class="dropdown-item" href="#">Testimonial</a></li>
-                                    <li><a class="dropdown-item" href="#">404 Page</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav flex-row justify-content-start">
-                            <li class="nav-item icon-nav-bottom">
-                                <a class="nav-link" href="#">
-                                    <i class="icofont-facebook"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item icon-nav-bottom">
-                                <a class="nav-link" href="#">
-                                    <i class="icofont-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="nav-item icon-nav-bottom">
-                                <a class="nav-link" href="#">
-                                    <i class="icofont-linkedin"></i>
-                                </a>
-                            </li>
-                        </ul>
+                <section class="collapse navbar-collapse col-md-8 justify-content-end" id="navbarList">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active Item-Active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Project</a></li>
+                                <li><a class="dropdown-item" href="#">Features</a></li>
+                                <li><a class="dropdown-item" href="#">Team Members</a></li>
+                                <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                                <li><a class="dropdown-item" href="#">404 Page</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav flex-row justify-content-start">
+                        <li class="nav-item icon-nav-bottom">
+                            <a class="nav-link" href="#">
+                                <i class="icofont-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item icon-nav-bottom">
+                            <a class="nav-link" href="#">
+                                <i class="icofont-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item icon-nav-bottom">
+                            <a class="nav-link" href="#">
+                                <i class="icofont-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
 
-                    </section>
                 </section>
+
             </section>
         </nav>
 
@@ -128,18 +128,18 @@
     <header class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel-slider">
         <div class="carousel-inner">
 
-            <div class="carousel-item active box-slider" data-bs-interval="5000">
+            <div class="carousel-item active box-slider row" data-bs-interval="5000">
                 <img src="image/carousel-1.jpg" class="image-slider">
-                <div class="row-cols-md-8 texts">
+                <div class="col-12 col-md-8 texts">
                     <span>Welcome to  Finanza</span>
                     <p class="wow animate__animated animate__fadeInDown">Your Financial Status Is Our Goal</p>
                     <button class="btn btn-primary">Explore More</button>
                 </div>
             </div>
 
-            <div class="carousel-item box-slider" data-bs-interval="5000">
+            <div class="carousel-item box-slider row" data-bs-interval="5000">
                 <img src="image/carousel-2.jpg" class="image-slider">
-                <div class="texts">
+                <div class="col-12 col-md-8 texts">
                     <span>Welcome to  Finanza</span>
                     <p class="wow animate__animated animate__fadeInDown">True Financial Support For You</p>
                     <button class="btn btn-primary">Explore More</button>
@@ -173,7 +173,8 @@
                     <h2>We Help Our Clients To Grow Their Business</h2>
                     <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
                         Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                        sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        sed stet lorem sit clita duo justo magna dolore erat amet
+                    </p>
 
                     <div class="about-box-tab">
                         <ul class="nav nav-tabs" id="tabList">
@@ -211,6 +212,7 @@
                     </div>
                 </section>
             </section>
+
             <section class="row about-box-bottom">
                 <section class="col-md-4 item item1">
                     <section>
@@ -437,26 +439,26 @@
             <img src="image/bg.png">
         </section>
        <!----------------------- Request A Call-Back ----------------------------->
-        <section class="row justify-content-center wow animate__animated animate__fadeInUpBig ">
-            <form class="form-box col-8 col-md-6 text-center p-5">
+        <section class="row justify-content-center wow animate__animated animate__fadeInUpBig">
+            <form class="form-box col-10 col-md-6 text-center">
                 <span>Get In Touch</span>
                 <h2 class="mt-4">Request A Call-Back</h2>
 
                 <div class="row mt-4">
                     <div class="col-6">
-                        <input type="text" class="form-control form-control-lg" placeholder="Your Name">
+                        <input type="text" class="form-control" placeholder="Your Name">
                     </div>
                     <div class="col-6">
-                        <input type="email" class="form-control form-control-lg" placeholder="Your Email">
+                        <input type="email" class="form-control" placeholder="Your Email">
                     </div>
                 </div>
 
                 <div class="row mt-3">
                     <div class="col-6">
-                        <input type="tel" class="form-control form-control-lg" placeholder="Your Mobile">
+                        <input type="tel" class="form-control" placeholder="Your Mobile">
                     </div>
                     <div class="col-6">
-                        <input type="text" class="form-control form-control-lg" placeholder="Subject">
+                        <input type="text" class="form-control" placeholder="Subject">
                     </div>
                 </div>
 
